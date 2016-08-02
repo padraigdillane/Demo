@@ -15,3 +15,5 @@ git show - see commit details - example git show 387f462e792ef6f4621a01202a0d142
 branch out idea to try out something or work on a different feature without effecting other parts
 
 create branch from files - git branch v2.0// git checkout v2.0
+
+TO switch back to master without merging - git checkout master
