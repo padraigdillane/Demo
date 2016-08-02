@@ -2,3 +2,5 @@ create local repo - git init (initalise where repo will live)
 stage files(lets git know files are ready to get commited) - git add - example add *.txt
 commit - git commit - m " " - example git comitt -m "initial commit to master branch"
 status command - git status -- lets you see the list of changes before you commit
+see detailed list of all changes committed including messages - git log
+not detailed list - git shortlog
