@@ -26,10 +26,21 @@ To merge go back to master - git merge v2.0
 
 To retrieve code from a shared reop you perform a pull operarion and when finished push
 
-workflow
-pull - makes changes - commit locally(many times) - possibly branch and merge locally - pull(resolve conflicts - other people made to your local repo) - push(into centeral repo)
+
 
 create github repo
 	enter command to set up connection- git remote add origin https://github.com/padraigdillane/Demo.git
 	git push -u origin master
 	padraigdillane umwr9xuu
+
+
+workflow
+pull - makes changes - commit locally(many times) - possibly branch and merge locally - pull(resolve conflicts - other people made to your local repo) - push(into centeral repo)
+
+example
+
+git pull
+git add *.*
+git commit -m "changes to will be pushed to remote repo"
+git pull - check if anyone has made a change
+git push
