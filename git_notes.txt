@@ -3,4 +3,7 @@ stage files(lets git know files are ready to get commited) - git add - example a
 commit - git commit - m " " - example git comitt -m "initial commit to master branch"
 status command - git status -- lets you see the list of changes before you commit
 see detailed list of all changes committed including messages - git log
-not detailed list - git shortlog
+not detailed list - git shortlog	
+if you need to work on something else - git stash - changes will be gone
+to get them back when ready to work on file again - git stash apply
+git checkout test1- resets file back to lastest changeset if you dont want the changes from stash apply
