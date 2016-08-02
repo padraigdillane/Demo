@@ -1,1 +1,3 @@
 create local repo - git init (initalise where repo will live)
+stage files(lets git know files are ready to get commited) - git add - example add *.txt
+commit - git commit
