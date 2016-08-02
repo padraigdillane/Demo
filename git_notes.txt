@@ -16,4 +16,20 @@ branch out idea to try out something or work on a different feature without effe
 
 create branch from files - git branch v2.0// git checkout v2.0
 
-TO switch back to master without merging - git checkout master
+TO switch back to master without merging - git checkout master(branch files will disappear)
+
+switch back to branch - git checkout v2.0 (branch files will reappear)
+
+To merge go back to master - git merge v2.0
+
+
+
+To retrieve code from a shared reop you perform a pull operarion and when finished push
+
+workflow
+pull - makes changes - commit locally(many times) - possibly branch and merge locally - pull(resolve conflicts - other people made to your local repo) - push(into centeral repo)
+
+create github repo
+	enter command to set up connection- git remote add origin https://github.com/padraigdillane/Demo.git
+	git push -u origin master
+	padraigdillane umwr9xuu
