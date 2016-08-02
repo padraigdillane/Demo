@@ -7,3 +7,11 @@ not detailed list - git shortlog
 if you need to work on something else - git stash - changes will be gone
 to get them back when ready to work on file again - git stash apply
 git checkout test1- resets file back to lastest changeset if you dont want the changes from stash apply
+amend - git add file.txt // git commit --amend - m"message"
+
+git status - to see if there are pending changes
+git show - see commit details - example git show 387f462e792ef6f4621a01202a0d1427b40fcb9f
+
+branch out idea to try out something or work on a different feature without effecting other parts
+
+create branch from files - git branch v2.0// git checkout v2.0
