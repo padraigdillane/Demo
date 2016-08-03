@@ -29,6 +29,18 @@ namespace Collection.Tests
 
             Assert.AreEqual("John", customer1.Name);
         }
-       
+
+        [TestMethod]
+        public void Customer1Salary_Returns6500()
+        {
+            Customer customer1 = new Customer();
+
+            customer1.ID = 110;
+            customer1.Name = "John";
+            customer1.Salary = 6500;
+
+            Assert.AreEqual(6500, customer1.Salary);
+        }
+
     }
 }
